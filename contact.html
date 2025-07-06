@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問い合わせ・無料体験申込 | EN-LIGHT個別指導スクール</title>
+    <meta name="description" content="EN-LIGHT個別指導スクールへのお問い合わせ、無料体験授業のお申し込みはこちらから。よくある質問もご確認いただけます。">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body class="page-contact">
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">EN-LIGHT</a>
+                <nav>
+                    <button class="nav-toggle">☰</button>
+                    <ul class="nav-menu">
+                        <li><a href="index.html">トップ</a></li>
+                        <li><a href="concept.html">指導方針</a></li>
+                        <li><a href="course.html">コース案内</a></li>
+                        <li><a href="result.html">実績・合格実績</a></li>
+                        <li><a href="room.html">教室紹介</a></li>
+                        <li><a href="teachers.html">講師紹介</a></li>
+                        <li><a href="contact.html">お問い合わせ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <h1 class="section-title">お問い合わせ・無料体験申込</h1>
+                <p class="section-subtitle">お気軽にお問い合わせください</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="contact-info-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">📞</div>
+                        <h3>お電話でのお問い合わせ</h3>
+                        <div class="phone-number">03-1234-5678</div>
+                        <div class="contact-details">
+                            <h4>受付時間</h4>
+                            <p><strong>平日：</strong>14:00-22:00</p>
+                            <p><strong>土曜：</strong>13:00-21:00</p>
+                            <p class="note">※日曜日・祝日は休校です</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">✉️</div>
+                        <h3>Webフォームでのお問い合わせ</h3>
+                        <p class="contact-description">24時間受付中！下記フォームからお気軽にお問い合わせください。</p>
+                        <div class="contact-details">
+                            <h4>返信時間</h4>
+                            <p><strong>平日・土曜：</strong>24時間以内に返信</p>
+                            <p class="note">※日曜日・祝日にいただいたお問い合わせは翌営業日に返信</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" style="background-color: #F5F5F5;">
+            <div class="container">
+                <h2 class="section-title">無料体験授業・お問い合わせフォーム</h2>
+                <div class="card" style="max-width: 800px; margin: 0 auto;">
+                    <form id="contactForm" style="display: grid; gap: 20px;">
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                            <div>
+                                <label for="studentName" style="display: block; margin-bottom: 5px; font-weight: bold;">生徒氏名 <span style="color: red;">*</span></label>
+                                <input type="text" id="studentName" name="studentName" required style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; font-size: 16px;">
+                            </div>
+                            <div>
+                                <label for="studentKana" style="display: block; margin-bottom: 5px; font-weight: bold;">生徒氏名（ふりがな） <span style="color: red;">*</span></label>
+                                <input type="text" id="studentKana" name="studentKana" required style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; font-size: 16px;">
+                            </div>
+                        </div>
+
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                            <div>
+                                <label for="grade" style="display: block; margin-bottom: 5px; font-weight: bold;">学年 <span style="color: red;">*</span></label>
+                                <select id="grade" name="grade" required style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; font-size: 16px;">
+                                    <option value="">選択してください</option>
+                                    <option value="中学1年">中学1年</option>
+                                    <option value="中学2年">中学2年</option>
+                                    <option value="中学3年">中学3年</option>
+                                    <option value="高校1年">高校1年</option>
+                                    <option value="高校2年">高校2年</option>
+                                    <option value="高校3年">高校3年</option>
+                                    <option value="その他">その他</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="school" style="display: block; margin-bottom: 5px; font-weight: bold;">学校名</label>
+                                <input type="text" id="school" name="school" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; font-size: 16px;">
+                            </div>
+                        </div>
+
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                            <div>
+                                <label for="parentName" style="display: block; margin-bottom: 5px; font-weight: bold;">保護者氏名 <span style="color: red;">*</span></label>
+                                <input type="text" id="parentName" name="parentName" required style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; font-size: 16px;">
+                            </div>
+                            <div>
+                                <label for="phone" style="display: block; margin-bottom: 5px; font-weight: bold;">電話番号 <span style="color: red;">*</span></label>
+                                <input type="tel" id="phone" name="phone" required style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; font-size: 16px;">
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="email" style="display: block; margin-bottom: 5px; font-weight: bold;">メールアドレス <span style="color: red;">*</span></label>
+                            <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; font-size: 16px;">
+                        </div>
+
+                        <div>
+                            <label for="inquiryType" style="display: block; margin-bottom: 5px; font-weight: bold;">お問い合わせ種別 <span style="color: red;">*</span></label>
+                            <select id="inquiryType" name="inquiryType" required style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; font-size: 16px;">
+                                <option value="">選択してください</option>
+                                <option value="無料体験授業">無料体験授業を希望</option>
+                                <option value="教室見学">教室見学を希望</option>
+                                <option value="入塾相談">入塾相談</option>
+                                <option value="料金について">料金について</option>
+                                <option value="コースについて">コースについて</option>
+                                <option value="その他">その他のお問い合わせ</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="subjects" style="display: block; margin-bottom: 5px; font-weight: bold;">希望科目（複数選択可）</label>
+                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; margin-top: 10px;">
+                                <label style="display: flex; align-items: center;"><input type="checkbox" name="subjects" value="数学" style="margin-right: 5px;"> 数学</label>
+                                <label style="display: flex; align-items: center;"><input type="checkbox" name="subjects" value="英語" style="margin-right: 5px;"> 英語</label>
+                                <label style="display: flex; align-items: center;"><input type="checkbox" name="subjects" value="国語" style="margin-right: 5px;"> 国語</label>
+                                <label style="display: flex; align-items: center;"><input type="checkbox" name="subjects" value="理科" style="margin-right: 5px;"> 理科</label>
+                                <label style="display: flex; align-items: center;"><input type="checkbox" name="subjects" value="社会" style="margin-right: 5px;"> 社会</label>
+                                <label style="display: flex; align-items: center;"><input type="checkbox" name="subjects" value="その他" style="margin-right: 5px;"> その他</label>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="preferredDate" style="display: block; margin-bottom: 5px; font-weight: bold;">希望日時（体験授業・面談の場合）</label>
+                            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                                <div>
+                                    <label for="date" style="display: block; margin-bottom: 5px;">第1希望日</label>
+                                    <input type="date" id="date" name="preferredDate1" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; font-size: 16px;">
+                                </div>
+                                <div>
+                                    <label for="time" style="display: block; margin-bottom: 5px;">希望時間帯</label>
+                                    <select name="preferredTime1" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; font-size: 16px;">
+                                        <option value="">選択してください</option>
+                                        <option value="17:00-18:30">17:00-18:30</option>
+                                        <option value="18:40-20:10">18:40-20:10</option>
+                                        <option value="20:20-21:50">20:20-21:50</option>
+                                        <option value="土曜13:00-14:30">土曜13:00-14:30</option>
+                                        <option value="土曜14:40-16:10">土曜14:40-16:10</option>
+                                        <option value="土曜16:20-17:50">土曜16:20-17:50</option>
+                                        <option value="土曜18:00-19:30">土曜18:00-19:30</option>
+                                        <option value="その他">その他（備考欄に記載）</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="message" style="display: block; margin-bottom: 5px; font-weight: bold;">お問い合わせ内容・備考</label>
+                            <textarea id="message" name="message" rows="5" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; font-size: 16px; resize: vertical;" placeholder="現在の学習状況、お悩み、ご質問などお気軽にお書きください"></textarea>
+                        </div>
+
+                        <div style="background-color: #E8F4F8; padding: 20px; border-radius: 8px;">
+                            <h4>個人情報の取り扱いについて</h4>
+                            <p style="font-size: 14px; line-height: 1.6; margin-bottom: 15px;">
+                                お預かりした個人情報は、お問い合わせへの回答、体験授業の実施、入塾手続き等の目的にのみ使用し、
+                                第三者に提供することはありません。詳しくは<a href="#" style="color: #6AB6D9;">プライバシーポリシー</a>をご確認ください。
+                            </p>
+                            <label style="display: flex; align-items: center;">
+                                <input type="checkbox" id="privacyAgree" name="privacyAgree" required style="margin-right: 8px;">
+                                個人情報の取り扱いに同意します <span style="color: red;">*</span>
+                            </label>
+                        </div>
+
+                        <div style="text-align: center;">
+                            <button type="submit" class="btn btn-large">送信する</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">よくある質問</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <h4>Q. 体験授業は本当に無料ですか？</h4>
+                        <p style="margin: 15px 0; line-height: 1.6;">
+                            はい、完全無料です。体験授業（90分）、学習相談、教材費などすべて無料でご利用いただけます。
+                            入塾を強要することもありませんので、安心してお申し込みください。
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h4>Q. 入塾にはテストがありますか？</h4>
+                        <p style="margin: 15px 0; line-height: 1.6;">
+                            入塾テストはありません。学力診断テストは実施しますが、これは現在の学力を把握し、
+                            最適な学習プランを作成するためのものです。どなたでも入塾していただけます。
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h4>Q. 授業の振替はできますか？</h4>
+                        <p style="margin: 15px 0; line-height: 1.6;">
+                            はい、前日までにご連絡いただければ無料で振替授業を実施いたします。
+                            月2回まで無料、3回目以降は有料となります。
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h4>Q. 自習室はいつでも使えますか？</h4>
+                        <p style="margin: 15px 0; line-height: 1.6;">
+                            平日14:00-22:00、土曜13:00-21:00の間、在校生は無料でご利用いただけます。
+                            予約は不要で、何時間でも利用可能です。
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h4>Q. 講師の変更はできますか？</h4>
+                        <p style="margin: 15px 0; line-height: 1.6;">
+                            はい、可能です。講師との相性は学習効果に大きく影響するため、
+                            お気軽にご相談ください。お子様に最適な講師をご紹介いたします。
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h4>Q. 授業料以外に費用はかかりますか？</h4>
+                        <p style="margin: 15px 0; line-height: 1.6;">
+                            入会金（20,000円）、設備費（月額2,000円）、教材費（実費）が必要です。
+                            教材費は使用する教材によって異なりますが、月額2,000円〜5,000円程度です。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" style="background-color: #F5F5F5;">
+            <div class="container">
+                <h2 class="section-title">教室情報</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <h3>📍 アクセス</h3>
+                        <p style="margin: 15px 0;">
+                            <strong>住所：</strong>〒168-0072<br>
+                            東京都杉並区高井戸東3-1-1<br><br>
+                            <strong>最寄り駅：</strong><br>
+                            京王井の頭線 高井戸駅 徒歩5分<br>
+                            JR中央・総武線 高円寺駅 徒歩12分
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3>🕒 開校時間</h3>
+                        <p style="margin: 15px 0;">
+                            <strong>平日（月〜金）：</strong>14:00-22:00<br>
+                            <strong>土曜日：</strong>13:00-21:00<br>
+                            <strong>日曜日・祝日：</strong>休校<br><br>
+                            <strong>自習室利用可能時間：</strong><br>
+                            平日 14:00-22:00<br>
+                            土曜 13:00-21:00
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3>📧 お問い合わせ</h3>
+                        <p style="margin: 15px 0;">
+                            <strong>電話：</strong>03-1234-5678<br>
+                            <strong>メール：</strong>info@en-light.jp<br><br>
+                            <strong>受付時間：</strong><br>
+                            平日 14:00-22:00<br>
+                            土曜 13:00-21:00<br>
+                            ※日曜・祝日は休校
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>EN-LIGHT個別指導スクール</h3>
+                    <p>〒168-0072<br>東京都杉並区高井戸東3-1-1</p>
+                    <p>TEL: 03-1234-5678<br>受付時間: 平日 14:00-22:00</p>
+                </div>
+                <div class="footer-section">
+                    <h3>サイトマップ</h3>
+                    <p><a href="index.html">トップページ</a></p>
+                    <p><a href="concept.html">指導方針</a></p>
+                    <p><a href="course.html">コース案内</a></p>
+                    <p><a href="result.html">実績・合格実績</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>お問い合わせ</h3>
+                    <p><a href="room.html">教室紹介</a></p>
+                    <p><a href="teachers.html">講師紹介</a></p>
+                    <p><a href="contact.html">お問い合わせ</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EN-LIGHT個別指導スクール All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('contactForm');
+            
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // フォーム送信の処理（実際のサイトではサーバーサイド処理が必要）
+                alert('お問い合わせいただきありがとうございます。\n内容を確認の上、24時間以内にご連絡いたします。');
+                
+                // フォームをリセット
+                form.reset();
+            });
+        });
+    </script>
+</body>
+</html>
