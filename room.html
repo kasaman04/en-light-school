@@ -40,7 +40,7 @@
 
         <section class="section">
             <div class="container">
-                <h2 class="section-title">教室のギャラリー</h2>
+                <h2 class="section-title">教室ギャラリー</h2>
                 <div class="swiper gallery-swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
@@ -90,6 +90,8 @@
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
             </div>
         </section>
@@ -334,6 +336,10 @@
                 pagination: {
                     el: '.swiper-pagination',
                     clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
                 },
                 breakpoints: {
                     768: {
